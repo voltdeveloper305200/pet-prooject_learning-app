@@ -1,0 +1,97 @@
+{
+    "lessons":[
+        {
+            "id": "1", "title": "Урок 1", "isCompleted": true, "time": 15
+        },
+        {
+            "id": "2", "title": "Урок 2", "isCompleted": true, "time": 25
+        },
+        {
+            "id": "3", "title": "Урок 3", "isCompleted": true, "time": 37
+        },
+        {
+            "id": "4", "title": "Урок 4", "isCompleted": false, "time": 120
+        },
+        {
+            "id": "5", "title": "Урок 5", "isCompleted": true, "time": 93
+        },
+        {
+            "id": "6", "title": "Урок 6", "isCompleted": false, "time": 81
+        },
+        {
+            "id": "7", "title": "Урок 7", "isCompleted": true, "time": 42
+        },
+        {
+            "id": "8", "title": "Урок 8", "isCompleted": true, "time": 12
+        },
+        {
+            "id": "9", "title": "Урок 9", "isCompleted": false, "time": 42
+        },
+        {
+            "id": "10", "title": "Урок 10", "isCompleted": true, "time": 3
+        },
+        {
+            "id": "11", "title": "Урок 11", "isCompleted": true, "time": 14
+        },
+        {
+            "id": "12", "title": "Урок 12", "isCompleted": true, "time": 21
+        },
+        {
+            "id": "13", "title": "Урок 13", "isCompleted": true, "time": 33
+        },
+        {
+            "id": "14", "title": "Урок 14", "isCompleted": false, "time": 47
+        },
+        {
+            "id": "15", "title": "Урок 15", "isCompleted": true, "time": 62
+        },
+        {
+            "id": "16", "title": "Урок 16", "isCompleted": true, "time": 70
+        },
+        {
+            "id": "17", "title": "Урок 17", "isCompleted": false, "time": 57
+        },
+        {
+            "id": "18", "title": "Урок 18", "isCompleted": true, "time": 100
+        },
+        {
+            "id": "19", "title": "Урок 19", "isCompleted": true, "time": 89
+        },
+        {
+            "id": "20", "title": "Урок 20", "isCompleted": true, "time": 13
+        },
+        {
+            "id": "21", "title": "Урок 21", "isCompleted": true, "time": 73
+        },
+        {
+            "id": "22", "title": "Урок 22", "isCompleted": true, "time": 124
+        },
+        {
+            "id": "23", "title": "Урок 23", "isCompleted": true, "time": 5
+        },
+        {
+            "id": "24", "title": "Урок 24", "isCompleted": false, "time": 93
+        },
+        {
+            "id": "25", "title": "Урок 25", "isCompleted": true, "time": 8
+        },
+        {
+            "id": "26", "title": "Урок 26", "isCompleted": false, "time": 42
+        },
+        {
+            "id": "27", "title": "Урок 27", "isCompleted": true, "time": 30
+        },
+        {
+            "id": "28", "title": "Урок 28", "isCompleted": false, "time": 10
+        }
+    ],
+    "podcasts": [
+        {"id": 1, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"},
+        {"id": 2, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"},
+        {"id": 3, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"},
+        {"id": 4, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"},
+        {"id": 5, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"},
+        {"id": 6, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"},
+        {"id": 7, "avatar": "https://www.kleo.ru/img/news/i0uj2.jpg"}
+    ]
+  }
