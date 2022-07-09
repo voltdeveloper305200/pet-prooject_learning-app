@@ -33,7 +33,7 @@ export const lessonModule = {
         }
     },
     actions: {
-        async fetchLessons({state, commit}) {
+        async fetchLessonsLimited({state, commit}) {
             try {
               commit('setLoading', true)
               const response = await axios.get('http://localhost:8001/lessons', {
@@ -42,40 +42,49 @@ export const lessonModule = {
                     _page: state.page
                 }
               })
-              const response2 = await axios.get('http://localhost:8001/lessons')
               commit('setTotalPages', Math.ceil(response.headers['x-total-count'] / state.limit))
               commit('setLessons', response.data)
-              commit('setLessonsAll', response2.data)
             } catch (e) {
               console.log(e);
             } finally {
               commit('setLoading', false)
             }
         },
+        async fetchLessonsAll({commit}) {
+            try {
+                commit('setLoading', true)
+                const response = await axios.get('http://localhost:8001/lessons')
+                commit('setLessonsAll', response.data)
+              } catch (e) {
+                console.log(e);
+              } finally {
+                commit('setLoading', false)
+              }
+        },
         changePage({commit, dispatch}, pageNumber) {
             commit('setPage', pageNumber)
-            dispatch('fetchLessons')
+            dispatch('fetchLessonsLimited')
         },
         changeNextPage({state, commit, dispatch}) {
             const newState = state.page < state.totalPages ? state.page += 1 : state.page = 1
             commit('setPage', newState)
-            dispatch('fetchLessons')
+            dispatch('fetchLessonsLimited')
         },
         changePrevPage({state, commit, dispatch}) {
             const newState = state.page > 1 ? state.page -= 1 : state.page = state.totalPages
             commit('setPage', newState)
-            dispatch('fetchLessons')
+            dispatch('fetchLessonsLimited')
         },
         selectLesson({state, commit}, id) {
             commit('setSelectedLesson', state.lessonsAll.find(lesson => lesson.id === id) || null)
-        }
-    },
+        },
+     },
     getters: {
         searchedLessons(state) {
             return state.lessons.filter((lesson) => lesson.title.toLowerCase().includes(state.searchQuery.toLowerCase()))
         },
         missedLessons(state) {
-            return state.lessons.filter((lesson) => lesson.isCompleted === false)
+            return state.lessonsAll.filter((lesson) => lesson.isCompleted === false)
         },
         searchedMissedLessons(state, getters) {
             return getters.missedLessons.filter((lesson) => lesson.title.toLowerCase().includes(state.searchQuery.toLowerCase()))
