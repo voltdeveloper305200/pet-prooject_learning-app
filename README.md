@@ -1,6 +1,5 @@
-# learning-app
+Чтобы запустить проект, установите npm
 
-## Project setup
 ```
 npm install
 ```
