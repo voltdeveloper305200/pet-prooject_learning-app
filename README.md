@@ -1,19 +1,16 @@
-# learning-app
+Чтобы запустить проект, установите npm
 
-## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Для запуска локального сервера введите команду:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+Для запуска импровизированного API из библиотеки json-server введите команду:
 ```
-npm run build
+npm run server
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
