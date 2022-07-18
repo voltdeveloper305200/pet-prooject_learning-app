@@ -2,171 +2,245 @@
   "lessons": [
     {
       "id": "1",
-      "title": "Урок 1",
-      "isCompleted": true,
-      "time": 15
+      "title": "Что такое JavaScript",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "isCompleted": false,
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 0,
+      "dislikes": 0
     },
     {
       "id": "2",
-      "title": "Урок 2",
+      "title": "Синтаксис",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 25
+      "time": 25,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "3",
-      "title": "Урок 3",
+      "title": "Переменные",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 37
+      "time": 10,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "4",
-      "title": "Урок 4",
-      "isCompleted": false,
-      "time": 93
+      "title": "Типы данных в JavaScript",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "isCompleted": true,
+      "time": 5,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "5",
-      "title": "Урок 5",
-      "isCompleted": true,
-      "time": 93
+      "title": "Примитивы",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "isCompleted": false,
+      "time": 64,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "6",
-      "title": "Урок 6",
+      "title": "Функции",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 42
+      "time": 55,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "7",
-      "title": "Урок 7",
+      "title": "Именование переменных и функций",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 42
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "8",
-      "title": "Урок 8",
+      "title": "Подключение JavaScript к странице",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 12
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "9",
-      "title": "Урок 9",
+      "title": "Оператор Spread",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": false,
-      "time": 42
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "10",
-      "title": "Урок 10",
+      "title": "Основы JavaScript",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 3
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "11",
-      "title": "Урок 11",
+      "title": "Node.js и npm",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 14
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "12",
-      "title": "Урок 12",
+      "title": "Линтер ESLint",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 21
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "13",
-      "title": "Урок 13",
+      "title": "Локальный сервер Browsersync",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 33
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "14",
-      "title": "Урок 14",
+      "title": "Настройка Git",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": false,
-      "time": 47
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "15",
-      "title": "Урок 15",
+      "title": "Настройка Node.js и npm",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 62
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "16",
-      "title": "Урок 16",
+      "title": "Настройка редактора",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 70
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "17",
-      "title": "Урок 17",
-      "isCompleted": false,
-      "time": 57
+      "title": "Переменные в JavaScript и их области видимости",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "isCompleted": true,
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "18",
-      "title": "Урок 18",
+      "title": "Условия",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 100
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "19",
-      "title": "Урок 19",
+      "title": "Тернарный оператор",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 30
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "20",
-      "title": "Урок 20",
+      "title": "Циклы",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 13
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "21",
-      "title": "Урок 21",
+      "title": "Стрелочные функции",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 73
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     },
     {
       "id": "22",
-      "title": "Урок 22",
+      "title": "Оператор switch",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "isCompleted": true,
-      "time": 124
-    },
-    {
-      "id": "23",
-      "title": "Урок 23",
-      "isCompleted": true,
-      "time": 5
-    },
-    {
-      "id": "24",
-      "title": "Урок 24",
-      "isCompleted": false,
-      "time": 93
-    },
-    {
-      "id": "25",
-      "title": "Урок 25",
-      "isCompleted": true,
-      "time": 8
-    },
-    {
-      "id": "26",
-      "title": "Урок 26",
-      "isCompleted": false,
-      "time": 42
-    },
-    {
-      "id": "27",
-      "title": "Урок 27",
-      "isCompleted": true,
-      "time": 30
-    },
-    {
-      "id": "28",
-      "title": "Урок 28",
-      "isCompleted": true,
-      "time": 30
+      "time": 15,
+      "authorName": "John Doe",
+      "authorAvatar": "https://ru-static.z-dn.net/files/dde/c48dceec31ef8e99d6f233a45a05e493.png",
+      "likes": 12,
+      "dislikes": 2
     }
   ],
   "podcasts": [
