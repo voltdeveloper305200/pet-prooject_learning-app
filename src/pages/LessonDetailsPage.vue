@@ -90,7 +90,7 @@
               :key="lesson.id"
               @click="getLessonDetailsData"
             >
-              <button class="square-btn user-btn">
+              <button class="lesson-item__btn">
                 {{ lesson.id }}
               </button>
               <div class="lesson-item__description">

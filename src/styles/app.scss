@@ -516,6 +516,14 @@ ul {
                 box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
               }
        }
+       .lesson-item__btn {
+            width: 30px;
+            height: 30px;
+            background-color: $colorMain3;
+            border-radius: 5px;
+            color: #fff;
+            border: none;
+       }
 
        .lesson-item__description {
             margin-top: 15px;
